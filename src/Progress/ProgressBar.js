@@ -4,7 +4,7 @@ import {minutesToDuration, secondsToDuration} from "../utils/duration";
 
 
 
-export default function ProgressBar({focusDuration, breakDuration, session, isTimerRunning, onBreak, setOnBreak}){
+export default function ProgressBar({focusDuration, breakDuration, session, isTimerRunning, }){
   
   let progress = 0;
   const breakTime = minutesToDuration(Number(breakDuration));

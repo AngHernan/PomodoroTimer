@@ -66,7 +66,7 @@ function Pomodoro() {
   // ToDo: Allow the user to adjust the focus and break duration <-Working but need to set maximums and minimums .
   const [focusDuration, setFocusDuration] = useState(25);
   const [breakDuration, setBreakDuration] = useState(5);
-  const [onBreak, setOnBreak] = useState(false);
+ 
   // Disable controller for changing duration of break and focus 
   const [disableDurationChange, setDisableDurationChange] = useState(false);
   /**
@@ -180,8 +180,7 @@ function Pomodoro() {
         breakDuration={breakDuration}
         session={session} 
         isTimerRunning={isTimerRunning}
-        onBreak={onBreak}
-        setOnBreak={setOnBreak}/>
+        />
     </div>
   );
 }
