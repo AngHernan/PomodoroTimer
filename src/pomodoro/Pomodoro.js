@@ -25,8 +25,6 @@ function nextTick(prevState) {
   };
 }
 
-
-
 /**
  * Higher order function that returns a function to update the session state with the next session type upon timeout.
  * @param focusDuration
